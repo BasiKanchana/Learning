@@ -1,0 +1,27 @@
+section {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    /* max-width: 1600px; */
+}
+.Home_Section {
+    width: 100%;  
+    height: auto;
+}
+ .Home_Slider_img{
+    width: 100% ;
+    height: auto;
+    /* border: 3px solid #110f0f; */
+    z-index: 1;  
+    
+}
+.home_row {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    z-index: -1;
+    /* margin: 50px; */
+}
