@@ -36,9 +36,9 @@ import { signInWithEmailAndPassword,createUserWithEmailAndPassword } from 'fireb
      }
    
   return (  
-              <div className='Login_form text-center'  >
+              <div className='Login_form container-fluid text-center'  >
                 
-                <div className='Login text-center'>
+                <div className='Login '>
                     <Link to="/" style={{textDecoration:"none"}}>
                     <div className='Login_Logo'>
                         <StorefrontIcon  className='logo_StoreIcon'/>
@@ -52,13 +52,13 @@ import { signInWithEmailAndPassword,createUserWithEmailAndPassword } from 'fireb
                         <h1>Sign-in</h1>
 
                     <form>
-                        <div class="mb-3">
-                           <label for="exampleFormControlInput1" class="form-label"><strong>Email </strong></label>
-                                 <input type="email" class="form-control" value={email}  onClick={(e) => setEmail(e.target.value)}placeholder="Enter Email"></input>
+                        <div className="mb-3">
+                          <strong>Email </strong>
+                                 <input type="email" className="form-control" value={email}  onChange={(e) => setEmail(e.target.value)} placeholder="Enter Email"></input>
                         </div>
-                        <div class="mb-3">
-                           <label for="exampleFormControlPassword" class="form-label"><strong>Password</strong></label>
-                           <input type="password" class="form-control" value={password}  onClick={(e) => setPassword(e.target.value)}placeholder="Enter Password"></input>
+                        <div className="mb-3">
+                    <strong>Password</strong>
+                           <input type="password" className="form-control" value={password}  onChange={(e) => setPassword(e.target.value)}placeholder="Enter Password"></input>
                        
                         </div> 
                         <div className='Sign_in'>

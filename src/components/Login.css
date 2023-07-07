@@ -1,11 +1,12 @@
  .Login_form {
 
-    width: 100%;
+     width: 30%; 
     height: 450px;
     margin-top:70px ;
+    text-align: justify;
     /* border :2px solid #0a35f5dc; */
-    text-align: justify !important;
-  
+    /* text-align: justify !important;
+   */
  }
  .logo_StoreIcon {
     font-size: 40px !important; 
@@ -19,10 +20,10 @@
  
  
 .login_continer {
-    margin-left: 550px;
-    margin-right: 550px;
+     /* margin-left: 550px;
+    margin-right: 550px;  */
     margin-top: 20px;
-    height: 430px;
+    height: 470px;
     padding: 10px;
     border: 2px solid #646464ec;
     border-radius: 10px ;
